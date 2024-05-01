@@ -1,0 +1,117 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set the background color */
+  body {
+    background-color: #f0f0f0; /* You can change this to your desired background color */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    height: 100vh; /* Ensure the body takes up the full viewport height */
+  }
+  
+  /* Style the container */
+  .container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  /* Style the text section */
+  .text {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the form */
+  .form {
+    text-align: left;
+  }
+  
+  /* Style form labels */
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Style form inputs */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  /* Style the submit button */
+  #signup {
+    background-color: #007bff; /* You can change this to your desired button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #signup:hover {
+    background-color: #0056b3; /* Change the button color on hover */
+  }
+  
+  /* Center the logo */
+  #logo {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Center the login button */
+  .btn {
+    display: block;
+    margin: 0 auto;
+  }
+  
+/* ... (previous CSS code) ... */
+
+/* Style the submit and login buttons */
+#signup,
+.login-link {
+  background-color: #007bff; /* You can change this to your desired button color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: block;
+  margin: 10px auto; /* Add margin for spacing between buttons */
+  text-align: center;
+  text-decoration: none; /* Remove underlines from the link */
+  width: 100%; /* Make both buttons take the full width of the form */
+}
+
+#signup:hover {
+  background-color: #0056b3; /* Change the button color on hover */
+}
+
+/* Adjust the width of the container */
+.container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 400px; /* Set a maximum width for the container */
+  text-align: center;
+}
+
+/* ... (remaining CSS code) ... */
+

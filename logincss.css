@@ -1,0 +1,117 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a background color for the body */
+  body {
+    background-color: #f7f7f758;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style the container for the content */
+  .container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px; /* Adjust the width as needed */
+  }
+  
+  /* Style the text section */
+  .text {
+    margin-bottom: 20px;
+  }
+  
+  .text h3 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .text p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  /* Style the form section */
+  .form {
+    text-align: center;
+  }
+  
+  .form h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the form inputs and labels */
+  label {
+    display: block;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #333;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    background-color: #fff;
+  }
+  
+  /* Style the submit button */
+  #login {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px; /* Adjust the padding for button size */
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #login:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the Sign up button */
+  .signup {
+    margin-top: 20px;
+  }
+  
+  .signup .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px; /* Adjust the padding for button size */
+    text-decoration: none;
+    font-size: 16px; /* Adjust the font size as needed */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup .btn:hover {
+    background-color: #0056b3;
+  }
+  
